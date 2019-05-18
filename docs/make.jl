@@ -1,11 +1,11 @@
 using Documenter
 
 makedocs(
-    sitename = "JuMag.jl",
+    sitename = "Hello",
     format = Documenter.HTML(
         prettyurls = get(ENV, "CI", nothing) == "true"
     ),
-    modules = [JuMag],
+    modules = [Hello],
     pages = Any[
         "notes.md",
         ]
