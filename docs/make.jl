@@ -1,4 +1,5 @@
 using Documenter
+using Hello
 
 makedocs(
     sitename = "Hello",
